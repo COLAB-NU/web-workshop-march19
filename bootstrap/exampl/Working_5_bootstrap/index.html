@@ -1,0 +1,256 @@
+
+
+<!-- Example ! 
+  Responsive images, icons, and nested Grid -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="../../assets/ico/favicon.ico">
+
+    <title>Magic App</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.theme.min.css" rel="stylesheet">
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+    <div class="container">
+      <header class="page-header">
+          <ul class="nav nav-pills  pull-right">
+            <li class="active"><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        <h2>Magic App</h2>
+      </header>
+
+      <div class="jumbotron" class="text-center">
+          <h2 class="text-center">Android Apps for Learning Magic</h2>
+          <p class="text-center" >Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit consectetur adipiscing elit. Praesent commodo cursus magna,et.consectetur adipiscing elit. Maecenas sed diam eget risus varius blandit consectetur adipiscing elit. Praesent commodo cursus magna,etconsectetur adipiscing elit. Maecenas sed diam eget risus varius blandit consectetur adipiscing elit. Praesent commodo cursus magna,et.</p>
+          <p class="btn-group">
+          <a  href="#" class="btn btn-success btn-lg">Download App</a>
+          <a  href="#" class="btn btn-default btn-lg">Text Me Link</a>
+          </p>
+      </div>
+
+            <!-- Example 1 feture content add grid system --> 
+      <div class="row">
+      
+        <div class="col-sm-4">
+          <!-- 2 icons glyphicon -->
+          <span class="glyphicon glyphicon-heart" style="font-size: 60px"></span>
+          <h3 class="text-center">Easy to Use</h3>
+          <!-- 3 coloring paraghrph-->
+          <!-- 4 font size -->
+          <!-- 5 font-position -->
+          <p class="text-center" class="bg-success">varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur varius blandit sit amet non magna.</p>
+          <a  href="#" class="btn btn-default">Read more</a>
+        </div>
+
+        <div class="col-sm-4">
+          <span style="font-size: 60px" class="glyphicon glyphicon-comment"></span>
+          <h3 class="text-center">Conect with Friend</h3>
+          <p class="text-center" class="bg-info">varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur varius blandit sit amet non magna.</p>
+          <a  href="#" class="btn btn-danger">Read more</a>
+        </div>
+
+        <div  class="col-sm-4">
+           <span style="font-size: 60px" class="glyphicon glyphicon-eye-open"></span>
+          <h3 class="text-center">Real Magic</h3>
+          <p class="text-center" class="bg-muted">varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur varius blandit sit amet non magna.</p>
+          <a  href="#" class="btn btn-secondary">Read more</a>
+        </div>
+
+      </div> <!--feture content-->
+
+      <!-- Nasted grid 
+    1, Grid it
+    2, some design
+    3, image
+
+      -->
+      
+      <hr>
+      <div class="text-center">
+        
+      </div>
+      <div class="row">
+        <div class="col-sm-4">
+          <h3 class="text-info">How to used it</h3>
+           <p>varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur varius blandit sit amet non magna.varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur varius blandit sit amet non magna.</p>      
+        </div>
+        <!-- image adjusting in responsive -->
+        <div class="col-sm-4" class="text-center" >
+          <img src="/home/mebi/Desktop/image.jpeg" class="img-responsive" alt="Responsive image">
+        </div>
+        <div class="col-sm-4">
+          <h3 class="text-success">About Colab</h3>
+          <p>varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur varius blandit sit amet non magna.varius blandit sit amet non magna. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent commodo cursus magna, vel scelerisque nisl consectetur varius blandit sit amet non magna.</p>
+      </div>
+      </div>
+      <hr>
+
+      <!-- TABLES 
+      1, container
+      2, class table just
+      3, than class table stripped
+
+      -->
+
+    <div class="container">
+      <table class="table table-striped">
+        <!--4, background color -->
+        <tr class="success">
+          <!-- naming color-->
+          <th class="text-primary">Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr class="primary">
+          <td class="text-info" >Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr class="info">
+          <td class="text-danger">Eve</td>
+          <td>Jackson</td>
+          <td>24</td>
+        </tr>
+        <tr class="warning">
+          <td>John</td>
+          <td>Doe</td>
+          <td>34</td>
+        </tr>
+        <tr class="danger">
+          <td>Stephanie</td>
+          <td>Landon</td>
+          <td>47</td>
+        </tr>
+        <tr class="default">
+          <td>Mike</td>
+          <td>Johnson</td>
+          <td>19</td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- Forms 
+      1, container 
+      2, form group in each
+      3, type, class(important), placholder
+      4, help block(important)
+      5, checkbox
+      6, important (form inline just insert class form-inline in form tag-->)
+
+    <div class="container">
+      <form>
+        <div class="form-group">
+          <label>Name</label>
+          <input type="text" class="form-control" placeholder="Add Name">
+        </div>
+
+        <div class="form-group">
+          <label>Email</label>
+          <input type="email" class="form-control" placeholder="Add email">
+        </div>
+
+        <div class="form-group">
+          <label>Message></label>
+          <textarea class="form-control" placeholder="Add Message">message</textarea>
+        </div>
+
+        <div class="form-group">
+          <label>Gender</label>
+          <select class="form-control">
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label>Upload File</label>
+          <input type="file">
+          <p class="help-block">Only png and jpg allowed</p>
+        </div>
+
+        <div>
+          <label class="checkbox">
+            <input type="checkbox"> Check me out
+          </label>
+        </div>
+
+        <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+    </div>
+    <hr>
+    <!--- List groups-->
+
+    <div class="container">
+      <ul class="list-group">
+        <li class="list-group-item">Item One</li>
+        <li class="list-group-item list-group-item-success"">Item Two</li>
+        <li class="list-group-item list-group-item-primary"">Item Three</li>
+        <li class="list-group-item list-group-item-danger">Item Four</li>
+      </ul>
+
+      <!-- Active links-->
+
+      <div class="list-group">
+          <a href="#" class="list-group-item active">Item One</a>
+          <a href="#" class="list-group-item">Item Two</a>
+          <a href="#" class="list-group-item list-group-item-success">Item Three</a>
+          <a href="#" class="list-group-item disabled">Item Four</a>
+        </div>
+    </div>
+    <hr>
+    <!-- Alerts -->
+    <div class="alert alert-success" role="alert">     Well done! You successfully read this important alert message. </div>
+      <div class="alert alert-info" role="alert">Heads up! This alert needs your attention, but it's not super important. </div>
+      <div class="alert alert-warning" role="alert">Oh snap! Change a few things up and try submitting again. </div>
+      <div class="alert alert-danger" role="alert">Warning! Better check yourself, you're not looking too good. 
+    </div>
+    <hr>
+
+     <!-- PROGRESS BARS -->
+      <div class="progress">
+        <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar" style="width:50%;"> 50%
+        </div>
+      </div>
+      <div>
+        <a href="#">Inbox <span class="badge">50</span></a>
+        <button class="btn btn-primary" type="button">Messages <span class="badge">2</span>
+      </button>
+    </div>
+
+
+      <hr>
+       <!-- centre -->
+      <footer class="footer">
+        <p class="text-center">&copy:2019 Magic App Design by: Colab</p>
+      </footer>
+
+    </div> 
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
