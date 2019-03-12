@@ -1,0 +1,13 @@
+//To create the laravel
+composer create-project  laravel/laravel Name_of_project
+
+// create controller
+php artisan make:controller UserController 
+// in case of model controller
+php artisan make:controller UserController --resource
+//Tinker shell
+php artisan tinker
+
+
+//Model means database
+php artisan make:model MyModel -m
